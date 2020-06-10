@@ -6,11 +6,11 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@3.2.1"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@3"></script>
     <!--<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">-->
+    <link rel = "icon" href = "/static/image/icon.png"    type = "image/x-icon"> 
     <nav>
         <ul>
-            <li><a class="active" href="/">Do I have Diabets </a></li>
+            <li><a class="active" href="/">Predict Blood Glucose Level  </a></li>
             <li><a class = "Visualize" href="/Visualize/">Visualize</a></li>
-            <li><a class ="Code_review" href="#"> Code</a></li>
             <li><a Class="contact" href="/contact/">Contact</a></li>
                       
             
@@ -59,7 +59,7 @@
         img {
               width: 100%;
               height: 100%;
-              object-fit: fill;
+              object-fit:contain;
             }
             div form{
               box-shadow: 3px 5px 3px 7px rgb(74, 74, 150);
@@ -90,11 +90,9 @@
                       input:valid {
                         border: 2px solid black;
                       }
-        
+        </style>
     {% block head %} 
-  </style>
-        
-      </style> 
+ 
       {% endblock%}
 </head>
 <body>
@@ -108,7 +106,11 @@
     {% endblock %}
   
   
-        
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
 </body>
 
 <footer>
