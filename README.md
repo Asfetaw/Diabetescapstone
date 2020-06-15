@@ -13,7 +13,7 @@ Develop a machine learning application  integrating with interactive web  applic
 
 
 
-<img src="./Solution.png" width=500 height=500><img>
+<img src="./Solution.png" width=800 height=500><img>
 
 # Repository
 
