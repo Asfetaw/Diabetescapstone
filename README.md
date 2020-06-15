@@ -43,7 +43,7 @@ This main all the source codes to handle the main steps of the the project.
 * importing the orginal source data (url="https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt") using the pandas Dataframe.
 * Data preprocessing and wrangling :
     * Prepare the dataset  for training and 
-    * cleane observations by removing  duplicates, correct errors, deal with missing values, normalization, data type conversions
+    * clean observations by removing  duplicates, correct errors, deal with missing values, normalization, data type conversions
 * Explorative alaysis 
     * Visualize data to help detect relevant relationships between the risk factors (independent variables) such as Age , Sex, Body mass index and siz blood test result(serum) and the the glood suger amount(dependent variable)
     * generate the explorative results such as histogram  , box-blot , statstical description , and tabulated the relationship between the independent dependent variables.
@@ -98,24 +98,24 @@ This director consists of
 ## requirement.txt
 
  * This file  contains a pinned version of everything that are used in this package 
-            click==7.1.2
-            dill==0.3.1.1
-            Flask==1.1.2
-            gunicorn==20.0.4
-            itsdangerous==1.1.0
-            Jinja2==2.11.2
-            joblib==0.15.1
-            MarkupSafe==1.1.1
-            numpy==1.18.4
-            pandas==1.0.3
-            python-dateutil==2.8.1
-            pytz==2020.1
-            scikit-learn==0.23.1
-            scipy==1.4.1
-            six==1.15.0
-            sklearn==0.0
-            threadpoolctl==2.0.0
-            Werkzeug==1.0.1
+            * click==7.1.2  <br>
+            * dill==0.3.1.1 <br>
+            * Flask==1.1.2 <br>
+            * gunicorn==20.0.4  <br>
+            * itsdangerous==1.1.0  <br>
+            * Jinja2==2.11.2  <br>
+            * joblib==0.15.1 <br>
+            * MarkupSafe==1.1.1 <br>
+            *  numpy==1.18.4 <br>
+            * pandas==1.0.3 <br>
+            * python-dateutil==2.8.1
+            * pytz==2020.1  <br>
+            * scikit-learn==0.23.1
+            * scipy==1.4.1  <br>
+            * six==1.15.0<br>
+            * sklearn==0.0
+            * threadpoolctl==2.0.0
+            * Werkzeug==1.0.1
  * it is  used to force pip to install version of a sub-dependency
 
 ## env
