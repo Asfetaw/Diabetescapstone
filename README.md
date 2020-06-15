@@ -110,12 +110,12 @@ This director consists of
             * pandas==1.0.3 <br>
             * python-dateutil==2.8.1
             * pytz==2020.1  <br>
-            * scikit-learn==0.23.1
+            * scikit-learn==0.23.1  <br>
             * scipy==1.4.1  <br>
             * six==1.15.0<br>
-            * sklearn==0.0
-            * threadpoolctl==2.0.0
-            * Werkzeug==1.0.1
+            * sklearn==0.0  <br>
+            * threadpoolctl==2.0.0  <br>
+            * Werkzeug==1.0.1  <br>
  * it is  used to force pip to install version of a sub-dependency
 
 ## env
