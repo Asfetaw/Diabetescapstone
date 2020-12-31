@@ -120,7 +120,7 @@ This director consists of
 
 ## env
 
-This directory contain a separate enviroment of this project. 
+This directory contain a separate enviroment for this project. 
 
 env--
             | <br>
